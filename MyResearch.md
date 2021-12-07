@@ -8,11 +8,11 @@ daily research @ Shopee
 
 ## User Representation  
 
-- [**One4all User Representation for Recommender Systems in E-commerce**](./user/shopperbert.md): [PDF](https://arxiv.org/pdf/2106.00573.pdf)
+- [**One4all User Representation for Recommender Systems in E-commerce**](./user/shopperbert.md): [PDF](https://arxiv.org/pdf/2106.00573.pdf)  
 
-- [**UserBERT: Contrastive User Model Pre-training**](./user/userbert.md): [PDF](https://arxiv.org/pdf/2109.01274.pdf)
+- [**UserBERT: Contrastive User Model Pre-training**](./user/userbert.md): [PDF](https://arxiv.org/pdf/2109.01274.pdf)  
 
-- [**UPRec: User-Aware Pre-training for Recommender Systems**](./user/uprec.md): [PDF](UPRec: User-Aware Pre-training for Recommender Systems)
+- [**UPRec: User-Aware Pre-training for Recommender Systems**](./user/uprec.md): [PDF](UPRec: User-Aware Pre-training for Recommender Systems)  
 
   
 
