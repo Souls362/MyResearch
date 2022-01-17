@@ -12,6 +12,7 @@ daily research @ Shopee
 
 - [**DeepFM: A Factorization-Machine based Neural Network for CTR Prediction**]() [PDF](https://arxiv.org/pdf/1703.04247.pdf)
   
+- [**Rank consistent ordinal regression for neural networks with application to age estimation**](./rec/dcn.md): [PDF](https://arxiv.org/pdf/1901.07884.pdf)
 
 ## User Representation  
 
@@ -20,9 +21,6 @@ daily research @ Shopee
 - [**UserBERT: Contrastive User Model Pre-training**](./user/userbert.md): [PDF](https://arxiv.org/pdf/2109.01274.pdf)  
 
 - [**UPRec: User-Aware Pre-training for Recommender Systems**](./user/uprec.md): [PDF](https://arxiv.org/pdf/2102.10989.pdf)  
-
-- [**Rank consistent ordinal regression for neural networks with application to age estimation**](./rec/dcn.md): [PDF](https://arxiv.org/pdf/1901.07884.pdf)
-
 
 
 ## Reinforcement Learning
