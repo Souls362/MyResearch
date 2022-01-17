@@ -22,6 +22,7 @@ daily research @ Shopee
 
 - [**UPRec: User-Aware Pre-training for Recommender Systems**](./User/uprec.md): [PDF](https://arxiv.org/pdf/2102.10989.pdf)  
 
+- [**Real-time Personalization using Embeddings for Search Ranking at Airbnb**](./User/airbnb_emb.md): [PDF](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
 
 ## Reinforcement Learning
 
