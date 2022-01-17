@@ -4,7 +4,7 @@ daily research @ Shopee
 
 ## Rec System
 
-- [**Behavior Sequence Transformer for E-commerce Recommendation in Alibaba**() [PDF](https://arxiv.org/abs/1905.06874)
+- [**Behavior Sequence Transformer for E-commerce Recommendation in Alibaba**]() [PDF](https://arxiv.org/abs/1905.06874)
 
 - [**DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems**]() [PDF](https://arxiv.org/pdf/2008.13535.pdf)
 
