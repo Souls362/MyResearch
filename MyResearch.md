@@ -4,13 +4,13 @@ daily research @ Shopee
 
 ## Rec System
 
-- **Behavior Sequence Transformer for E-commerce Recommendation in Alibaba** [PDF](https://arxiv.org/abs/1905.06874)
+- [**Behavior Sequence Transformer for E-commerce Recommendation in Alibaba**() [PDF](https://arxiv.org/abs/1905.06874)
 
-- **DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems** [PDF](https://arxiv.org/pdf/2008.13535.pdf)
+- [**DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems**]() [PDF](https://arxiv.org/pdf/2008.13535.pdf)
 
-- **Deep & Cross Network for Ad Click Prediction** [PDF](https://arxiv.org/pdf/1708.05123.pdf)
+- [**Deep & Cross Network for Ad Click Prediction**]() [PDF](https://arxiv.org/pdf/1708.05123.pdf)
 
-- **DeepFM: A Factorization-Machine based Neural Network for CTR Prediction** [PDF](https://arxiv.org/pdf/1703.04247.pdf)
+- [**DeepFM: A Factorization-Machine based Neural Network for CTR Prediction**]() [PDF](https://arxiv.org/pdf/1703.04247.pdf)
   
 
 ## User Representation  
