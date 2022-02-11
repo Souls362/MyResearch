@@ -19,7 +19,7 @@ sihua.qi@shopee.com
 
 - AutoRegressive:
 
-  <img src="../imgs/my_summary_autoregressive.png" alt="my_summary_autoregressive" style="zoom:33%;" />
+  <img src="../imgs/my_summary_autoregressive.png" alt="my_summary_autoregressive" height="65" />
 
   given a list of interactions(items), predict the last interaction(item) $x$ with previous $x-1$ inteactions
 
@@ -29,7 +29,7 @@ sihua.qi@shopee.com
 
 - AutoEncoding:
 
-  <img src="../imgs/auto_encoding.png" alt="auto_encoding" style="zoom:33%;" />
+  <img src="../imgs/auto_encoding.png" alt="auto_encoding" height="600" />
 
   
 
@@ -46,7 +46,7 @@ sihua.qi@shopee.com
 
 - Contrastive:
 
-  <img src="../imgs/contrastive.png" alt="contrastive" style="zoom:33%;" />
+  <img src="../imgs/contrastive.png" alt="contrastive" height="270" />
 
   given a list of interactions(items), random sample two sub lists from origin list. give preidction for the outputs of two sub lists.
 
@@ -54,7 +54,7 @@ sihua.qi@shopee.com
   - Use hidden output of last item
   - Adding Negative Samples 
 
-  <img src="../imgs/contrastive1.png" style="zoom:33%;" />
+  <img src="../imgs/contrastive1.png" height="270" />
 
   given a list of interactions(items), premuatation the list getting a new interaction list, give preidction for the outputs of two  lists.
 
