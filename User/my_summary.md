@@ -58,12 +58,14 @@ sihua.qi@shopee.com
   - Use hidden output of last item
   - Adding Negative Samples 
 
+    
+
   <img src="../imgs/contrastive1.png" height="270" />
-
-     
   
-  given a list of interactions(items), premuatation the list getting a new interaction list, give preidction for the outputs of two  lists.
+     
 
+  given a list of interactions(items), premuatation the list getting a new interaction list, give preidction for the outputs of two  lists.
+  
   - Use CLS
   - Use hidden output of last item
   - Adding Negative Samples 
