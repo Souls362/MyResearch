@@ -21,6 +21,8 @@ sihua.qi@shopee.com
 
   <img src="../imgs/my_summary_autoregressive.png" alt="my_summary_autoregressive" height="65" />
 
+    
+
   given a list of interactions(items), predict the last interaction(item) $x$ with previous $x-1$ inteactions
 
   - [PeterRec](./peter_rec.md)
@@ -48,20 +50,24 @@ sihua.qi@shopee.com
 
   <img src="../imgs/contrastive.png" alt="contrastive" height="270" />
 
-  given a list of interactions(items), random sample two sub lists from origin list. give preidction for the outputs of two sub lists.
+    
 
+  given a list of interactions(items), random sample two sub lists from origin list. give preidction for the outputs of two sub lists.
+  
   - Use CLS
   - Use hidden output of last item
   - Adding Negative Samples 
 
   <img src="../imgs/contrastive1.png" height="270" />
 
+     
+  
   given a list of interactions(items), premuatation the list getting a new interaction list, give preidction for the outputs of two  lists.
 
   - Use CLS
   - Use hidden output of last item
   - Adding Negative Samples 
-
+  
   
 
 ## Backbones
