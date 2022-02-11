@@ -18,7 +18,7 @@ daily research @ Shopee
 
 - **Parameter-Efficient Transfer from Sequential Behaviors for User Modeling and Recommendation**: [[PDF]](https://arxiv.org/pdf/2001.04253.pdf)[[Notes]](./User/peter_rec.md)
 
-- **One Person, One Model, One World: Learning Continual User Representation without Forgetting**: [[PDF]](https://arxiv.org/pdf/2009.13724.pdf)[[Notes]](./User/one_person.md)
+- **One Person, One Model, One World: Learning Continual User Representation without Forgetting**: [[PDF]](https://arxiv.org/pdf/2009.13724.pdf)[[Notes]](./User/conure.md)
 
 - **Perceive Your Users in Depth: Learning Universal User Representations from Multiple E-commerce Tasks**: [[PDF]](https://arxiv.org/pdf/1805.10727.pdf)[[Notes]](./User/depth.md)
 
