@@ -12,12 +12,36 @@ sihua.qi@shopee.com
 | MovieLens 25M Dataset | https://grouplens.org/datasets/movielens/25m/                | 25m  |
 | Amazon                | https://nijianmo.github.io/amazon/index.html                 |      |
 | Yelp                  | https://www.yelp.com/dataset                                 |      |
+| MIND                  | https://msnews.github.io/                                    |      |
+| AliPay                | https://tianchi.aliyun.com/dataset/dataDetail?dataId=53      |      |
+| Tmall                 | https://tianchi.aliyun.com/dataset/dataDetail?dataId=42      |      |
+| Alimama               | https://tianchi.aliyun.com/dataset/dataDetail?dataId=56      |      |
 
 
 
-## Training Objects
+## TimeLine
 
-- AutoRegressive:
+- 2018 DUPN(DeepUserPreceptionNetwork) (an **emb + lstm** method for user behavior sequence modeling)
+- 
+
+
+
+## Embedding Method
+
+- Item Feature + Behavior Property: 
+
+  - Item feature: *item_id* / *shop* / *brand* / *category* / *tags*
+  - Behavior property: *scenario* / *time* / *type*  
+
+- 
+
+  
+
+
+
+## Training Objectives
+
+- **AutoRegressive**(masked multi-head attention):
 
   <img src="../imgs/my_summary_autoregressive.png" alt="my_summary_autoregressive" height="65" />
 
@@ -25,11 +49,11 @@ sihua.qi@shopee.com
 
   given a list of interactions(items), predict the last interaction(item) $x$ with previous $x-1$ inteactions
 
-  - [PeterRec](./peter_rec.md)
+  > [PeterRec](./peter_rec.md)
 
-    
+  
 
-- AutoEncoding:
+- **AutoEncoder**:
 
   <img src="../imgs/auto_encoding.png" alt="auto_encoding" height="600" />
 
@@ -46,7 +70,7 @@ sihua.qi@shopee.com
 
   > [ShopperBert](), [PeterRec]()
 
-- Contrastive:
+- **Contrastive**:
 
   <img src="../imgs/contrastive.png" alt="contrastive" height="270" />
 
@@ -74,9 +98,26 @@ sihua.qi@shopee.com
 
 ## Backbones
 
+- TCN
+- LSTM
+- Transformer
+- Aggregated
 
 
 
+## Finetuning Methods
+
+
+
+
+
+## Downstream Tasks
+
+- CTR Prediction
+- Learning to Rank
+- Price Perference Prediction
+- Fashion Icon Following Prediction
+- Shop Perference Prediction
 
 ## Performance
 
