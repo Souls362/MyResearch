@@ -25,7 +25,21 @@ daily research @ Shopee
   | 2019 | AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks | [PDF](https://arxiv.org/pdf/1810.11921.pdf) | Notes |
   | 2019 | Fi-GNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction | [PDF](https://arxiv.org/pdf/1910.05552.pdf) | Notes |
   
-  
+
+
+
+## NLP
+
+- Graph Related
+
+| year | paper                                                      | pdf                                         | note  |
+| ---- | ---------------------------------------------------------- | ------------------------------------------- | ----- |
+| 2022 | GNN-LM: LANGUAGE MODELING BASED ON GLOBAL CONTEXTS VIA GNN | [PDF](https://arxiv.org/pdf/2110.08743.pdf) | Notes |
+|      |                                                            |                                             |       |
+|      |                                                            |                                             |       |
+|      |                                                            |                                             |       |
+
+
 
 ## User Representation  
 
