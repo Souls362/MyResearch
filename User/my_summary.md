@@ -24,14 +24,16 @@ sihua.qi@shopee.com
 ```mermaid
 graph LR;
 user_representation(User Representation)--> tansformer_related(tansformer related methods);
+user_representation(User Representation)--> lstm_related(lstm related methods);
+user_representation(User Representation)--> cnn_related(cnn related methods);
 user_representation-->graph_related(graph related methods);
-tansformer_related--> paper1([<a href='https://arxiv.org/pdf/1805.10727.pdf'><b>DUPN</b></a>]);
-tansformer_related--> paper2(2)
-tansformer_related--> paper3(3)
-tansformer_related--> paper4(4)
-tansformer_related--> paper5(4)
-tansformer_related--> paper6(4)
-graph_related--> paper6(GNN-LM)
+lstm_related--> paper1([<a href='https://arxiv.org/pdf/1805.10727.pdf'><b>DUPN</b></a>]);
+cnn_related--> paper2([<a href='https://arxiv.org/pdf/2001.04253.pdf'><b>PeterRec</b></a>])
+tansformer_related--> paper3([<a href='https://arxiv.org/pdf/2010.01494.pdf'><b>PTUM</b></a>])
+tansformer_related--> paper4([<a href='https://arxiv.org/pdf/2109.01274.pdf'><b>UserBert</b></a>])
+tansformer_related--> paper5([<a href='https://arxiv.org/pdf/2106.00573.pdf'><b>ShopperBert</b></a>])
+tansformer_related--> paper6([<a href='https://arxiv.org/pdf/2110.08743.pdf'><b>GNN-LM</b></a>])
+graph_related--> paper6
 
 ```
 
@@ -54,6 +56,10 @@ graph_related--> paper6(GNN-LM)
 - 
 
   
+
+## Augmentation
+
+Pass
 
 
 
@@ -116,7 +122,7 @@ graph_related--> paper6(GNN-LM)
 
 ## Backbones
 
-- TCN
+- DCN
 - LSTM
 - Transformer
 - Aggregated
