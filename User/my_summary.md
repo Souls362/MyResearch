@@ -19,6 +19,24 @@ sihua.qi@shopee.com
 
 
 
+## User-Representation X-mind
+
+```mermaid
+graph LR;
+user_representation(User Representation)--> tansformer_related(tansformer related methods);
+user_representation-->graph_related(graph related methods);
+tansformer_related--> paper1([<a href='https://arxiv.org/pdf/1805.10727.pdf'><b>DUPN</b></a>]);
+tansformer_related--> paper2(2)
+tansformer_related--> paper3(3)
+tansformer_related--> paper4(4)
+tansformer_related--> paper5(4)
+tansformer_related--> paper6(4)
+graph_related--> paper6(GNN-LM)
+
+```
+
+
+
 ## TimeLine
 
 - 2018 DUPN(DeepUserPreceptionNetwork) (an **emb + lstm** method for user behavior sequence modeling)
