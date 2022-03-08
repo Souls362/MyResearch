@@ -32,12 +32,9 @@ daily research @ Shopee
 
 - Graph Related
 
-| year | paper                                                      | pdf                                         | note  |
-| ---- | ---------------------------------------------------------- | ------------------------------------------- | ----- |
-| 2022 | GNN-LM: LANGUAGE MODELING BASED ON GLOBAL CONTEXTS VIA GNN | [PDF](https://arxiv.org/pdf/2110.08743.pdf) | Notes |
-|      |                                                            |                                             |       |
-|      |                                                            |                                             |       |
-|      |                                                            |                                             |       |
+  | year | paper                                                      | pdf                                         | note  |
+  | ---- | ---------------------------------------------------------- | ------------------------------------------- | ----- |
+  | 2022 | GNN-LM: LANGUAGE MODELING BASED ON GLOBAL CONTEXTS VIA GNN | [PDF](https://arxiv.org/pdf/2110.08743.pdf) | Notes |
 
 
 
@@ -67,7 +64,6 @@ daily research @ Shopee
   | year | paper                                                        | pdf                                                    | note |
   | ---- | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
   | 2021 | User-as-Graph: User Modeling with Heterogeneous Graph Pooling for News Recommendation | [PDF](https://www.ijcai.org/proceedings/2021/0224.pdf) |      |
-  |      |                                                              |                                                        |      |
   
   
   

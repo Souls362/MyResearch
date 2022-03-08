@@ -4,6 +4,26 @@ sihua.qi@shopee.com
 
 
 
+## Roadmaps
+
+```mermaid
+flowchart TD;
+subgraph backbone;
+    user_representation(User Representation)--> tansformer_related([<a href='./transformer_based.md'><b>Transformer</b></a>]);
+    user_representation--> graph_related([<a href='./graph_based.md'><b>Graph Based</b></a>]);
+    user_representation--> cnn_related([<a href='./others.md'><b>Others</b></a>]);
+    end;
+subgraph strategy;
+    contrastive(Contrastive Learning);
+    data_aug(Data Augmentation);
+    transfer_learning(Transfer Learning);
+    end;
+backbone<--> strategy
+
+
+```
+
+
 ## Datasets
 
 | Dataset               | Address                                                      | Size |
@@ -19,129 +39,5 @@ sihua.qi@shopee.com
 
 
 
-## User-Representation X-mind
 
-```mermaid
-graph LR;
-user_representation(User Representation)--> tansformer_related(tansformer related methods);
-user_representation(User Representation)--> lstm_related(lstm related methods);
-user_representation(User Representation)--> cnn_related(cnn related methods);
-user_representation-->graph_related(graph related methods);
-lstm_related--> paper1([<a href='https://arxiv.org/pdf/1805.10727.pdf'><b>DUPN</b></a>]);
-cnn_related--> paper2([<a href='https://arxiv.org/pdf/2001.04253.pdf'><b>PeterRec</b></a>])
-tansformer_related--> paper3([<a href='https://arxiv.org/pdf/2010.01494.pdf'><b>PTUM</b></a>])
-tansformer_related--> paper4([<a href='https://arxiv.org/pdf/2109.01274.pdf'><b>UserBert</b></a>])
-tansformer_related--> paper5([<a href='https://arxiv.org/pdf/2106.00573.pdf'><b>ShopperBert</b></a>])
-tansformer_related--> paper6([<a href='https://arxiv.org/pdf/2110.08743.pdf'><b>GNN-LM</b></a>])
-graph_related--> paper6
-
-```
-
-
-
-## TimeLine
-
-- 2018 DUPN(DeepUserPreceptionNetwork) (an **emb + lstm** method for user behavior sequence modeling)
-- 
-
-
-
-## Embedding Method
-
-- Item Feature + Behavior Property: 
-
-  - Item feature: *item_id* / *shop* / *brand* / *category* / *tags*
-  - Behavior property: *scenario* / *time* / *type*  
-
-- 
-
-  
-
-## Augmentation
-
-Pass
-
-
-
-## Training Objectives
-
-- **AutoRegressive**(masked multi-head attention):
-
-  <img src="../imgs/my_summary_autoregressive.png" alt="my_summary_autoregressive" height="65" />
-
-    
-
-  given a list of interactions(items), predict the last interaction(item) $x$ with previous $x-1$ inteactions
-
-  > [PeterRec](./peter_rec.md)
-
-  
-
-- **AutoEncoder**:
-
-  <img src="../imgs/auto_encoding.png" alt="auto_encoding" height="600" />
-
-  
-
-  give a list of interactions(items) with length $n$, randomly mask interaction(item) $1 \le x < n$, predict the masked interaction.
-
-  hidden output may differ with models:
-
-  - Use CLS
-  - Use hidden output of masked item
-  - Adding Negative Samples 
-  - Adding additional info, order time / category / price bucket and etc with more masked prediction objectives
-
-  > [ShopperBert](), [PeterRec]()
-
-- **Contrastive**:
-
-  <img src="../imgs/contrastive.png" alt="contrastive" height="270" />
-
-    
-
-  given a list of interactions(items), random sample two sub lists from origin list. give preidction for the outputs of two sub lists.
-  
-  - Use CLS
-  - Use hidden output of last item
-  - Adding Negative Samples 
-
-    
-
-  <img src="../imgs/contrastive1.png" height="270" />
-  
-     
-
-  given a list of interactions(items), premuatation the list getting a new interaction list, give preidction for the outputs of two  lists.
-  
-  - Use CLS
-  - Use hidden output of last item
-  - Adding Negative Samples 
-  
-  
-
-## Backbones
-
-- DCN
-- LSTM
-- Transformer
-- Aggregated
-
-
-
-## Finetuning Methods
-
-
-
-
-
-## Downstream Tasks
-
-- CTR Prediction
-- Learning to Rank
-- Price Perference Prediction
-- Fashion Icon Following Prediction
-- Shop Perference Prediction
-
-## Performance
 
