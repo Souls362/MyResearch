@@ -16,6 +16,7 @@
 
 #### Transformer Family
 
+> 1. Learning Universal User Representations via Self-Supervised Lifelong Behaviors Modeling
 > 1. Scaling Law for Recommendation Models: Towards General-purpose User Representations
 > 1. One4all User Representation for Recommender Systems in E-commerce
 > 2. UserBERT: Contrastive User Model Pre-training

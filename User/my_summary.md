@@ -9,9 +9,9 @@ sihua.qi@shopee.com
 ```mermaid
 flowchart TD;
 subgraph backbone;
-    user_representation(User Representation)--> tansformer_related([<a href='./transformer_based.md'><b>Transformer</b></a>]);
-    user_representation--> graph_related([<a href='./graph_based.md'><b>Graph Based</b></a>]);
-    user_representation--> cnn_related([<a href='./others.md'><b>Others</b></a>]);
+    user_representation(User Representation)--> tansformer_related([<a href='https://github.com/Souls362/MyResearch-Shopee/blob/main/User/transformer_based.md'><b>Transformer</b></a>]);
+    user_representation--> graph_related([<a href='https://github.com/Souls362/MyResearch-Shopee/blob/main/User/graph_based.md'><b>Graph Based</b></a>]);
+    user_representation--> cnn_related([<a href='https://github.com/Souls362/MyResearch-Shopee/blob/main/User/others.md'><b>Others</b></a>]);
     end;
 subgraph strategy;
     contrastive(Contrastive Learning);
