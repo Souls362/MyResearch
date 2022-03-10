@@ -1,6 +1,5 @@
 # Pretrained User Representation
 
-sihua.qi@shopee.com
 
 
 
@@ -29,16 +28,24 @@ backbone<--> strategy
 
 - lack of training data (usually user tag data are from surveys, we can't send survey to all user, only small portion of user may get this survey, little of them may finish it)
 - label noise in the training data
+- Large-scale graph computing performance
+- 
+
 
 #### Potential Research Area
 
 - Applications:
 
   - Recommendation
-  - User Tagging
+  - user profile
+  - User interest Tagging
   - Topic Mining
+  - relation prediction
+  - user normalization
+
 
 - Problem to Solve:
+  
 
   - data augmentation: with user-item-user relationship graph, help us get more label
 
