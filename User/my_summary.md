@@ -23,6 +23,30 @@ backbone<--> strategy
 
 ```
 
+## Discussion
+
+#### Difficulties in Work
+
+- lack of training data (usually user tag data are from surveys, we can't send survey to all user, only small portion of user may get this survey, little of them may finish it)
+- label noise in the training data
+
+#### Potential Research Area
+
+- Applications:
+
+  - Recommendation
+  - User Tagging
+  - Topic Mining
+
+- Problem to Solve:
+
+  - data augmentation: with user-item-user relationship graph, help us get more label
+
+  - data denoising
+  - graph related: interests(topic) - item linking
+  - user-user / user-item graph
+
+
 
 ## Datasets
 
