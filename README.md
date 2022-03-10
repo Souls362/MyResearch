@@ -1,6 +1,6 @@
 # My Research
 
-daily research @ Shopee 
+daily research 
 
 ## Rec System
 
